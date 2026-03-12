@@ -1,0 +1,12 @@
+{
+  "domain": "fuelwatch",
+  "name": "FuelWatch WA",
+  "version": "1.0.0",
+  "documentation": "https://github.com/Snuffypot11/ha-fuelwatch",
+  "issue_tracker": "https://github.com/Snuffypot11/ha-fuelwatch/issues",
+  "codeowners": ["@Snuffypot11"],
+  "requirements": [],
+  "config_flow": true,
+  "integration_type": "service",
+  "iot_class": "cloud_polling"
+}

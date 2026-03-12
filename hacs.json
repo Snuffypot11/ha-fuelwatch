@@ -1,0 +1,6 @@
+{
+  "name": "FuelWatch WA",
+  "description": "Home Assistant integration for FuelWatch Western Australia. Monitor fuel prices by region and product type.",
+  "homeassistant": "2022.8.0",
+  "hacs": "1.6.0"
+}

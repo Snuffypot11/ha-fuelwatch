@@ -1,0 +1,38 @@
+{
+  "title": "FuelWatch WA",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up FuelWatch WA",
+        "description": "Configure your FuelWatch feed. See [FuelWatch RSS docs]({rss_url}) for details.",
+        "data": {
+          "region": "Region",
+          "product": "Fuel Type",
+          "suburb": "Suburb (optional, overrides region)",
+          "brand": "Filter by Brand (optional)",
+          "surrounding_suburbs": "Include surrounding suburbs",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to reach FuelWatch RSS. Check your internet connection."
+    },
+    "abort": {
+      "already_configured": "This region/product combination is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "FuelWatch Options",
+        "data": {
+          "suburb": "Suburb filter",
+          "brand": "Brand filter",
+          "surrounding_suburbs": "Include surrounding suburbs",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}
